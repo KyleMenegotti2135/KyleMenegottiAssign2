@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KyleAssign2">
         <activity
+            android:name=".RentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity
             android:name=".MenegottiActivity"
             android:exported="true">
             <intent-filter>

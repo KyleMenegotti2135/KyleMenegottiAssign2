@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Kyle Menegotti
+N01462135
+Section RNB
+-->
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
     <item
-        android:id="@+id/KyleHomeItem1"
-        android:title="@string/help"></item>
+        android:id="@+id/KyleMenuItem1"
+        android:title="@string/help"
+        app:showAsAction="collapseActionView"/>
 
     <item
-        android:id="@+id/KyleHomeItem2"
+        android:id="@+id/KyleMenuItem2"
         android:title="@string/home"
         app:showAsAction="ifRoom"></item>
 
     <item
-        android:id="@+id/KyleHomeItem3"
+        android:id="@+id/KyleMenuItem3"
         android:icon="@drawable/menu_building"
         android:title="@string/Rent"
         app:showAsAction="always" />
-
 
 </menu>
