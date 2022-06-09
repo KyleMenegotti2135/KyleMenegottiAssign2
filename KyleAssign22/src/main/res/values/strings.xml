@@ -7,4 +7,8 @@
     <string name="Rent">Rent</string>
     <string name="_416_555_5555">416-555-5555</string>
     <string name="Enter" />
+    <string name="semi_detached_home">Semi-Detached Home</string>
+    <string name="detached_home">Detached Home</string>
+    <string name="apartment">Apartment</string>
+    <string name="SelectToast" />
 </resources>

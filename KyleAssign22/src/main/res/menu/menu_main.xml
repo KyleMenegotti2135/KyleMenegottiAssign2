@@ -22,7 +22,7 @@ Section RNB
 
     <item
         android:id="@+id/KyleMenuItem3"
-        android:icon="@drawable/menu_building"
+        android:icon="@mipmap/ic_launcher2_foreground"
         android:title="@string/Rent"
         app:showAsAction="always" />
 

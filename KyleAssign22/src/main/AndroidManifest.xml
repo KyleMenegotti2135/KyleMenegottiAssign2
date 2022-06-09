@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KyleAssign2">
         <activity
+            android:name=".SemiDetachedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetachedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApartmentActivity"
+            android:exported="false" />
+        <activity
             android:name=".RentActivity"
             android:exported="false" />
         <activity
