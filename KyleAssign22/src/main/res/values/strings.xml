@@ -37,4 +37,15 @@
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="credit_debit_card_number">Credit/Debit Card Number</string>
+    <string name="detached_options">Detached Options</string>
+    <string name="option_11">Option #1</string>
+    <string name="img4">img4</string>
+    <string name="_82_toronto_st_mj24ck_1_300sq_ft_monthly_rent_2500">82 Toronto St, MJ24Ck, 1,300SQ FT MONTHLY RENT: $2500</string>
+    <string name="option_22">Option #2</string>
+    <string name="img5">img5</string>
+    <string name="_1_westchester_st_m2jkc3_1_700sq_ft_monthly_rent_2850">1 Westchester St, M2JkC3, 1,700SQ FT MONTHLY RENT: $2850</string>
+    <string name="option_33">Option #3</string>
+    <string name="img6">img6</string>
+    <string name="_14_deerain_st_mj35dk_2_300sq_ft_monthly_rent_3500">14 Deerain St, MJ35Dk, 2,300SQ FT MONTHLY RENT: $3500</string>
+    <string name="continue1">Continue</string>
 </resources>
