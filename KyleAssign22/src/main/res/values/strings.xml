@@ -11,4 +11,15 @@
     <string name="detached_home">Detached Home</string>
     <string name="apartment">Apartment</string>
     <string name="SelectToast" />
+    <string name="aptimg3">aptimg3</string>
+    <string name="test">test</string>
+    <string name="option_3">Option #3</string>
+    <string name="aptimg2">aptimg2</string>
+    <string name="_42_dunedin_drive_m6k4rp_toronto_650sq_ft_monthly_rent_1750">42 Dunedin Drive, M6K4RP, Toronto 650SQ FT MONTHLY RENT: $1750</string>
+    <string name="option_2">Option #2</string>
+    <string name="_14_deerhurts_drive_l6k3rj_toronto_650sq_ft_monthly_rent_1750">14 DeerHurts Drive, L6K3RJ, Toronto 650SQ FT MONTHLY RENT: $1750</string>
+    <string name="aptimg1">aptimg1</string>
+    <string name="option_1">Option #1</string>
+    <string name="apartment_options">Apartment Options</string>
+    <string name="_16_johnroad_crt_m6k4rp_toronto_650sq_ft_monthly_rent_1750">16 JohnRoad Crt, M6K4RP, Toronto 650SQ FT MONTHLY RENT: $1750</string>
 </resources>
