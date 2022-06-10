@@ -1,9 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Kyle Menegotti
+N01462135
+Section RNB
+-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SemiDetachedActivity">
+    tools:context=".SemiDetachedActivity"
+    android:background="#E4F0F6">
+
+    <TextView
+        android:id="@+id/KyleTextViewApartment"
+        android:layout_width="415dp"
+        android:layout_height="69dp"
+        android:text="@string/semi_detached_options"
+        android:textSize="35sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/KyleScrollViewOne"
+        android:layout_width="410dp"
+        android:layout_height="542dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/KyleCheckBoxOne"
+                android:text="@string/option_14"
+                android:textSize="28sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/img7"
+                app:srcCompat="@drawable/img7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/_790_princeton_rd_m3d2l4_toronto_2800sq_ft_monthly_rent_3100"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/KyleCheckBoxTwo"
+                android:text="@string/option_24"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/img8"
+                app:srcCompat="@drawable/img8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/_24_hampshire_blvd_l2j4ck_toronto_2223sq_ft_monthly_rent_2870"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/KyleCheckBoxThree"
+                android:text="@string/option_34"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/img9"
+                app:srcCompat="@drawable/img9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/_16_the_queensway_m2p3jr_toronto_2650sq_ft_monthly_rent_2975"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="64dp"
+        android:id="@+id/KyleButtonNew"
+        android:text="@string/continue2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:backgroundTint="#13324b"
+        android:textColor="#F8F9FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
