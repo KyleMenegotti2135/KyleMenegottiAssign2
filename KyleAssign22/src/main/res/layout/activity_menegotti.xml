@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Kyle Menegotti
+N01462135
+Section RNB
+-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +13,31 @@
     android:layout_height="match_parent"
     tools:context=".MenegottiActivity">
 
+    <ImageView
+        android:id="@+id/KyleImageView"
+        android:layout_width="273dp"
+        android:layout_height="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+        app:srcCompat="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/KyleTextView"
+        android:layout_width="392dp"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:text="@string/providing_clients_with_the_best_options_to_fit_their_housing_needs"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
 
     <Button
         android:id="@+id/KyleButton1"
@@ -21,5 +53,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="408dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="@string/leaseorrenthome_inc"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="115dp" />
 
+</androidx.constraintlayout.widget.ConstraintLayout>
