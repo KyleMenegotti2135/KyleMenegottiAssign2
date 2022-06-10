@@ -24,4 +24,17 @@
     <string name="_16_johnroad_crt_m6k4rp_toronto_650sq_ft_monthly_rent_1750">16 JohnRoad Crt, M6K4RP, Toronto 650SQ FT MONTHLY RENT: $1750</string>
     <string name="providing_clients_with_the_best_options_to_fit_their_housing_needs">Providing clients with the best options to fit their housing needs</string>
     <string name="leaseorrenthome_inc">LeaseOrRentHome Inc</string>
+    <string name="errorOkay" />
+    <string name="lasterrorOne" />
+    <string name="errorThree" />
+    <string name="errorTwo" />
+    <string name="errorOne" />
+    <string name="errorOnee" />
+    <string name="lasterrorThree" />
+    <string name="lasterrorTwo" />
+    <string name="lasterrorTwoo" />
+    <string name="payment_options">Payment Options</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="credit_debit_card_number">Credit/Debit Card Number</string>
 </resources>
